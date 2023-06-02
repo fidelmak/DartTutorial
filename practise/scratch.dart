@@ -7,6 +7,7 @@ void main() {
 
 Future<void> performTasks() async {
   task1();
+  print("lets begin in ...")
   String task3Result = await task2();
   task3(task3Result);
 }
